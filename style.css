@@ -43,41 +43,30 @@
         gap: 2.5rem;
 
         position: relative;
-        left: 22rem;
+        left: 25rem;
         top: 4rem;
     }
 
-    .cadastro{
-        border-radius: 17.0625rem;
-        background: rgba(255, 255, 255, 0.50);
-        filter: blur(90px);
-
-        width: 17.0625rem;
-        height: 17.0625rem;
-        flex-shrink: 0;
-    }
-   .cadastro{
-        color: #F72585;
-       
-
-         font-family: Inter;
-        font-size: 0.8125rem;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-    }
-
+.cadastro{
+    
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+   
+    position: relative;
+    left: 40rem;
+    top: 4rem;
+}
     .sign-up{
-
-color: var(--Primria-rosa, #F72585);
-font-family: Inter;
-font-size: 0.8125rem;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-
-  
+        display: flex;
+        width: 4.1rem;
+        padding: 0.625rem;
+        border-radius: 1.875rem;
+        border: 2px solid var(--Primria-rosa, #F72585);
+        background: rgba(240, 231, 235, 0.00);
+        justify-content: center;
+        
+        gap: 0.625rem;
     }
-
   
 }
