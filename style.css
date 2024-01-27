@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500;600&family=Volkhov:wght@400;700&display=swap');
 /* Estilos padrão para todas as telas */
 * {
     padding: 0;
@@ -194,4 +194,106 @@ line-height: normal;
     height: 10rem;
 background: linear-gradient(to bottom, transparent, #fff);
    }
+
+   .porques{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6rem;
+   
+   }
+   .titulo-cont{
+    display: inline-flex;
+flex-direction: column;
+align-items: center;
+gap: 1rem;
+
+
+   }
+   .titulo-cont h1{
+    color: #000;
+font-family: Volkhov;
+font-size: 2.25rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+   }
+
+   .titulo-cont p{
+    width: 45.625rem;
+    color: #000;
+text-align: center;
+
+/* texto_base_hero */
+font-family: Inter;
+font-size: 0.9375rem;
+font-style: normal;
+font-weight: 500;
+line-height: 181.023%; /* 1.69706rem */
+   }
+
+   .motivos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5.3rem;
+    position: relative;
+    top: 3rem;
+   
+    
+   }
+   .bola-azul{
+    display: flex;
+    align-items: center;
+    background-color: #3A0CA3;
+    border-radius: 20rem;
+    width: 6.625rem;
+    height: 6.625rem;
+    fill: var(--Primria-Azul-Escuro, #3A0CA3);
+    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.10)) drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.10)) drop-shadow(0px 12px 12px rgba(0, 0, 0, 0.09)) drop-shadow(0px 26px 16px rgba(0, 0, 0, 0.05)) drop-shadow(0px 47px 19px rgba(0, 0, 0, 0.01)) drop-shadow(0px 73px 20px rgba(0, 0, 0, 0.00));
+    position: relative;
+    left: 6rem;
+}
+.bola-azul svg{
+    position: relative;
+   left: 1.5rem;
+}
+
+.cards span{
+    color: #000;
+    gap:2rem;
+
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+
+    position: relative;
+    top: 2rem;
+    left: 4rem;
+
+    /* H5 */
+    font-family: Volkhov;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cards p{
+    width: 18.4375rem;
+    position: relative;
+    top: 3rem;
+    left: 2rem;
+
+    color: #000;
+    text-align: center;
+
+    /* texto_base_hero */
+    font-family: Inter;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 181.023%; /* 1.69706rem */
+}
 }
