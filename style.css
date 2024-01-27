@@ -1,0 +1,83 @@
+/* Estilos padrão para todas as telas */
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* Estilos específicos para telas com largura mínima de 600 pixels */
+@media only screen and (min-width: 600px) {
+    header {
+        background-image: url('public/images/image-5.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 14rem;
+        gap: 1rem;
+    }
+
+    .frist {
+        display: flex; /* Alteração: Removido "inline-" para permitir a flexibilidade */
+        flex-direction: row;
+       
+        fill: #000;
+        width: 9.875rem;
+        height: 1.5rem;
+        font: 1em sans-serif;
+    }
+
+    .frist img {
+        width: 15rem;
+        height: auto;
+
+        position: relative;
+        left: 9rem;
+        top: 4rem;
+      
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        gap: 2.5rem;
+
+        position: relative;
+        left: 22rem;
+        top: 4rem;
+    }
+
+    .cadastro{
+        border-radius: 17.0625rem;
+        background: rgba(255, 255, 255, 0.50);
+        filter: blur(90px);
+
+        width: 17.0625rem;
+        height: 17.0625rem;
+        flex-shrink: 0;
+    }
+   .cadastro{
+        color: #F72585;
+       
+
+         font-family: Inter;
+        font-size: 0.8125rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .sign-up{
+
+color: var(--Primria-rosa, #F72585);
+font-family: Inter;
+font-size: 0.8125rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+  
+    }
+
+  
+}
