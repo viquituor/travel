@@ -39,6 +39,9 @@
         width: 9.875rem;
         height: 1.5rem;
         font: 1rem sans-serif;
+
+        position: relative;
+        top: 5rem;
        
     }
 
@@ -98,7 +101,7 @@
         box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.14), 0px 4px 9px 0px rgba(0, 0, 0, 0.14), 0px 16px 16px 0px rgba(0, 0, 0, 0.12), 0px 36px 22px 0px rgba(0, 0, 0, 0.07), 0px 64px 26px 0px rgba(0, 0, 0, 0.02), 0px 100px 28px 0px rgba(0, 0, 0, 0.00);
 
         position: relative;
-        top:10rem ;
+        top:20rem ;
         left: 24rem;
         
         color: #000000;
@@ -152,7 +155,7 @@ line-height: normal;
         flex-direction: row;
         justify-content: center;
         position: relative;
-        top: 17rem;
+        top: 32rem;
        
         gap:1.6rem;
         
@@ -515,7 +518,7 @@ line-height: 181.023%; /* 1.69706rem */
 
         position: relative;
         top: 9rem;
-        left: 74rem;
+        left: 78rem;
         z-index: 1000;
         
 
